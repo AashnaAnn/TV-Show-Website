@@ -1,0 +1,248 @@
+
+  body {
+    background-color: #f0f0f0;
+    color: #333;
+    font-family: Arial, sans-serif;
+}
+
+.HomePage {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+.site-header {
+    background-color: #253e74;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.site-title {
+    font-size: 2.5em;
+    margin: 0;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.site-subtitle {
+    font-size: 1.2em;
+    margin-top: 5px;
+    opacity: 0.8;
+}
+
+.nav-menu {
+    background-color: #e465a4;
+    padding: 10px 0;
+}
+
+.nav-menu ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.nav-menu li {
+    margin: 0 15px;
+}
+
+.nav-menu a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: opacity 0.3s ease;
+}
+
+.nav-menu a:hover {
+    opacity: 0.8;
+}
+
+.section-title {
+    color: #253e74;
+    border-bottom: 2px solid #e465a4;
+    padding-bottom: 10px;
+    margin-top: 30px;
+}
+
+.school-info {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.school-info h1 {
+    color: #253e74;
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+.school-info h2 {
+    color: #e465a4;
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.tagline {
+    font-style: italic;
+    color: #666;
+    font-size: 1.2em;
+}
+
+.show-info {
+    background-color: #d8bdbd;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    color: #333;
+}
+
+.show-info h2 {
+    color: #253e74;
+    margin-top: 0;
+}
+
+
+.about-show {
+    margin-bottom: 30px;
+    color:rgb(109, 38, 105);
+}
+
+.about-show h3 {
+    color: #253e74;
+}
+
+.cast-section h3 {
+    color: #253e74;
+    text-align: center;
+}
+
+.character-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+.character-item {
+    background-color: #f8f8f8;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.character-item h4 {
+    color: #e465a4;
+    margin-top: 0;
+}
+
+.character-item p {
+    color: #333;
+}
+
+
+.quiz {
+    max-width: 600px;
+    margin: 30px auto;
+    padding: 20px;
+    background-color: #f8f8f8;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.quiz h2 {
+    color: #253e74;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.question-section {
+    margin-bottom: 20px;
+}
+
+.question-count {
+    color: #666;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.question-text {
+    color: #333;
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+.answer-section {
+    display: flex;
+    flex-direction: column;
+}
+
+.answer-section button {
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: #e465a4;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.answer-section button:hover {
+    background-color: #d14cdd;
+}
+
+.score-section {
+    text-align: center;
+    font-size: 18px;
+    color: #333;
+}
+
+.score-section button {
+    margin-top: 15px;
+    padding: 10px 20px;
+    background-color: #253e74;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.score-section button:hover {
+    background-color: #1a2e5c;
+}
+
+.show-info, .character-item, .episode-item, .quiz {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.show-info:hover, .character-item:hover, .episode-item:hover, .quiz:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.footer {
+    background-color: #253e74;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 40px;
+}
+
+.footer p {
+    margin: 5px 0;
+}
+
+
+@media (max-width: 768px) {
+    .HomePage {
+        padding: 10px;
+    }
+
+    .character-list, .episode-list {
+        grid-template-columns: 1fr;
+    }
+}

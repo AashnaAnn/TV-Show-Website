@@ -1,0 +1,86 @@
+
+body {
+  background-image: url('C:/Users/DELL/Desktop/TomAndJerry/frontend/src/images/background.png'); 
+  background-repeat: repeat; 
+  background-size: cover; 
+  background-position: center; 
+  background-attachment: fixed; 
+  position: relative;
+}
+
+
+body::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5); 
+  z-index: -1; 
+}
+
+
+.App {
+  position: relative;
+  z-index: 1; 
+  color: #333;
+  padding: 20px;
+}
+
+
+
+nav ul {
+  list-style: none;
+  display: flex;
+  padding: 0;
+  margin: 0;
+}
+
+nav ul li {
+  margin: 0 50px; 
+}
+
+nav ul li a {
+  color: #f3f0ff; 
+  text-decoration: none;
+  font-size: 1.5em; 
+  font-weight: 600; 
+  transition: color 0.3s ease-in-out;
+}
+
+nav ul li a:hover {
+  color: #ffd700; 
+}
+
+
+.App {
+  position: relative;
+  z-index: 1; 
+  color: #d6d4d4;
+  padding: 20px;
+  font-size: 1.3em; 
+}
+
+
+h1, h2 {
+  color: #5a189a; 
+  text-align: center;
+  font-weight: 700;
+  font-size: 2.5em; 
+}
+
+
+p {
+  font-size: 1.3em; 
+  line-height: 1.6; 
+}
+
+a {
+  font-size: 1.3em; 
+}
+
+button {
+  font-size: 1.2em; 
+}
+

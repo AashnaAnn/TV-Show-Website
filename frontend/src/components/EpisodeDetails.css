@@ -1,0 +1,159 @@
+.EpisodeDetails {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .EpisodeDetails h2 {
+    color: #ff69b4;
+    text-align: center;
+  }
+  
+  .subtitle {
+    text-align: center;
+    font-style: italic;
+    color: #7f36b3;
+    margin-bottom: 30px;
+  }
+  
+  .episode-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+  }
+  
+  .episode-item {
+    background-color: #f0f8ff;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  }
+  
+  .episode-item h3 {
+    color: #4169e1;
+    margin-top: 0;
+  }
+  
+  .episode-info {
+    font-style: italic;
+    color: #20b2aa;
+  }
+  
+  .episode-description {
+    color: #4b0082;
+  }
+
+  .EpisodeDetails {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .EpisodeDetails h2 {
+    color: #ff69b4;
+    text-align: center;
+  }
+  
+  .subtitle {
+    text-align: center;
+    font-style: italic;
+    color: #7f36b3;
+    margin-bottom: 30px;
+  }
+  
+  .episode-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    margin-bottom: 40px;
+  }
+  
+  .episode-item {
+    background-color: #f0f8ff;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  }
+  
+  .episode-item h3 {
+    color: #4169e1;
+    margin-top: 0;
+  }
+  
+  .episode-info {
+    font-style: italic;
+    color: #20b2aa;
+  }
+  
+  .episode-description {
+    color: #4b0082;
+  }
+  
+  .release-dates-section {
+    background-color: #f8f8f8;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  }
+  
+  .release-dates-section h3 {
+    color: #4169e1;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .toggle-dates-btn {
+    display: block;
+    margin: 0 auto 20px;
+    padding: 10px 20px;
+    background-color: #4169e1;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .toggle-dates-btn:hover {
+    background-color: #1e90ff;
+  }
+  
+  .date-list {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.5s ease-out;
+  }
+  
+  .date-list.show {
+    max-height: 1000px;
+  }
+  
+  .date-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.3s ease, transform 0.3s ease;
+  }
+  
+  .date-list.show .date-item {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  
+  .episode-number {
+    font-weight: bold;
+    color: #4169e1;
+  }
+  
+  .release-date {
+    color: #20b2aa;
+  }
