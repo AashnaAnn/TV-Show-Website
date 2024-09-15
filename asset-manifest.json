@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/AashnaAnn/TV-Show-Website.git/static/css/main.4751502f.css",
+    "main.js": "/AashnaAnn/TV-Show-Website.git/static/js/main.df8c8f2f.js",
+    "static/js/453.8ab44547.chunk.js": "/AashnaAnn/TV-Show-Website.git/static/js/453.8ab44547.chunk.js",
+    "static/media/background.png": "/AashnaAnn/TV-Show-Website.git/static/media/background.6d9d0a70e7069b2b04b4.png",
+    "static/media/BeckOliver.png": "/AashnaAnn/TV-Show-Website.git/static/media/BeckOliver.8e838a6b02553ca7e8b0.png",
+    "static/media/JadeWest.png": "/AashnaAnn/TV-Show-Website.git/static/media/JadeWest.a40b31389409b8fe2d42.png",
+    "static/media/CatValentine.png": "/AashnaAnn/TV-Show-Website.git/static/media/CatValentine.5de369a9d6a919ea71b4.png",
+    "static/media/ToriVega.png": "/AashnaAnn/TV-Show-Website.git/static/media/ToriVega.fe0659b2892f60f1870b.png",
+    "static/media/RobbieRex.png": "/AashnaAnn/TV-Show-Website.git/static/media/RobbieRex.bc88a69ea451639e80b6.png",
+    "index.html": "/AashnaAnn/TV-Show-Website.git/index.html",
+    "main.4751502f.css.map": "/AashnaAnn/TV-Show-Website.git/static/css/main.4751502f.css.map",
+    "main.df8c8f2f.js.map": "/AashnaAnn/TV-Show-Website.git/static/js/main.df8c8f2f.js.map",
+    "453.8ab44547.chunk.js.map": "/AashnaAnn/TV-Show-Website.git/static/js/453.8ab44547.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4751502f.css",
+    "static/js/main.df8c8f2f.js"
+  ]
+}
